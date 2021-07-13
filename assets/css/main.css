@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+}
+
+.main {
+  margin-left: 250px;
+  padding: 80px 100px 30px 20px;
+}
+
+.fixWidth {
+  width: 800px !important;
+}
+
+.ai-header {
+  background: #008ccf;
+  background-image: url(../images/Aladdin_Interface_Background_02.png);
+  background-image: url(../images/Aladdin_Interface_Background_02.png),
+    -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #008ccf), color-stop(100%, #005da0));
+  background-image: url(../images/Aladdin_Interface_Background_02.png),
+    -webkit-linear-gradient(left, #008ccf, #005da0);
+  background-image: url(../images/Aladdin_Interface_Background_02.png),
+    -moz-linear-gradient(left, #008ccf, #005da0);
+  background-image: url(../images/Aladdin_Interface_Background_02.png),
+    -o-linear-gradient(left, #008ccf, #005da0);
+  background-image: url(../images/Aladdin_Interface_Background_02.png),
+    linear-gradient(left, #008ccf, #005da0);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  min-width: 480px;
+  position: fixed;
+  height: 52px;
+  z-index: 10;
+}
+
+.ai-title {
+  float: left;
+  font-family: 'Arial', Tahoma, Arial, sans-serif;
+  font-size: 2.0075em;
+  margin: 5px 10px 0px 10px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  top: 52px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #777777;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+  margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+  background: #333;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
